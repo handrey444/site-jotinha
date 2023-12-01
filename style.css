@@ -112,14 +112,33 @@ main{
     border: 1px solid #e04451 ;
     border-radius: 50%;
     padding: 10px;
+    transition: all .5s;
     
+    
+}
+.icons-socials-style:hover{
+   translate: 15px ;
+   margin: 0 10px;
+   background-color: #dc8c93;
+   
 }
 footer{
     
     position: absolute;
     width: 100%;
-    height: 20vh;
-    background-color: #e04451;
+    height: 15vh;
+    background-color: #1f223f;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     
+}
+footer .site-icons{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 16px;
+    color: #e1e2e4;
+    border: 2px solid #e04451;
+    border-radius: 4%;
 }
