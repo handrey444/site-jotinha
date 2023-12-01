@@ -1,0 +1,125 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: #1f2235;
+    height: 100vh;
+    width: 100%;
+    overflow-x:hidden ;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    height: 70 px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+   
+}
+
+.botoes{
+    
+    margin-right: 10%; 
+}
+.botoes a {
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e1e2e4;
+    border-bottom:2px solid transparent ;
+    transition: all .5s;
+}
+.botoes a:hover{
+    color: #fff;
+    border-bottom: 2px solid  #e04451 ;
+}
+.logo{
+    margin-left: 10%;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #e04451;
+
+}
+main{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    position: relative;
+    margin-left: 10%;
+   
+    
+}
+.sec1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+   
+    
+}
+.sec1 h1{
+    color: #e04451;
+    text-transform: uppercase;
+}
+.sec1 h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.sec1 p{
+    font-size: 16px;
+   min-width:  120%;
+}
+.icons-socials{
+    display: flex;
+    column-gap: 5px;
+    
+}
+.icons-socials ul{
+    list-style: none;
+    
+}
+.foto{
+   margin: 0 25%;
+   position: relative;
+    
+}
+.circulo{
+    background-color:  #1f223f;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top:0;
+    z-index: -1;
+    margin-left: 30px;
+}
+.icons-socials-style{
+    width: 45px;
+    border: 1px solid #e04451 ;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+footer{
+    
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    background-color: #e04451;
+    bottom: 0;
+    
+}
