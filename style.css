@@ -9,7 +9,7 @@
 }
 body{
     background-color: #1f2235;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     overflow-x:hidden ;
     position: relative;
@@ -81,11 +81,13 @@ main{
 }
 .sec1 p{
     font-size: 16px;
-   min-width:  120%;
+    max-width:  130%;
+    min-width: 120%;
 }
 .icons-socials{
     display: flex;
     column-gap: 5px;
+    
     
 }
 .icons-socials ul{
