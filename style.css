@@ -190,6 +190,12 @@ main{
     margin-top: 0;
     margin-left: 0;
  }
+ .foto{
+    margin: 0;
+ }
+ .circulo{
+    margin: 0;
+ }
  .img{
     width: 270px;
     height: 220px;
