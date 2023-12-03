@@ -152,6 +152,7 @@ main{
     max-width: fit-content;
     position: relative;
     overflow-x: hidden;
+    margin-right: 0;
  }
  .nav{
     display: flex;
@@ -205,6 +206,7 @@ main{
    margin-top: 0;
    position: absolute;
    bottom: -15%;
+   margin-right: 0;
  }
  .footer-mob .site-icons{
     display: flex;
