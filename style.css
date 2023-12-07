@@ -167,7 +167,7 @@ main{
 @media screen and (max-width:1000px) {
  body{
     display: flex;
-    min-height: 120vh;
+    min-height: 84vh;
     width: 100%;
     max-width: fit-content;
     position: relative;
@@ -240,7 +240,7 @@ main{
     width: 80%;
  }
  .footer-mob{
-   height: 18vh;    
+   height: 16vh;    
    background-color:  #262842;;
    width: max-content;
    min-width: 100vw;
