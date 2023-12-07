@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
     
 
   }
-#nav{
+.nav{
     width: 100%;
     display: flex;
     align-items: center;
@@ -65,10 +65,7 @@ body::-webkit-scrollbar {
     font-size: 2rem;
     color: #e04451;
 
-}
-#btn{
-    display: none;
-}
+}z
 main{
     height: 50%;
     display: flex;
@@ -167,7 +164,7 @@ main{
 @media screen and (max-width:1000px) {
  body{
     display: flex;
-    min-height: 84vh;
+    min-height: 120vh;
     width: 100%;
     max-width: fit-content;
     position: relative;
@@ -176,16 +173,11 @@ main{
     margin-right: 0;
 
  }
- #btn{
-    display: block;
-    background-color: black;
-    width: 80px;
-    z-index: 999;
-    position: absolute;
- }
+ 
 
  
- #nav.active{
+ 
+ .nav{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -193,13 +185,10 @@ main{
     max-width: fit-content;
     min-height: 100vh;
     margin-top:0 ;
- }
- #nav{
-  display: none;
     
 
  }
- #nav h1{
+ .nav h1{
     margin-left: 2.9%;
     
  }
@@ -240,7 +229,7 @@ main{
     width: 80%;
  }
  .footer-mob{
-   height: 16vh;    
+   height: 18vh;    
    background-color:  #262842;;
    width: max-content;
    min-width: 100vw;
