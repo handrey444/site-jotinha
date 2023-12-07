@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
     
 
   }
-.nav{
+#nav{
     width: 100%;
     display: flex;
     align-items: center;
@@ -65,6 +65,9 @@ body::-webkit-scrollbar {
     font-size: 2rem;
     color: #e04451;
 
+}
+#btn{
+    display: none;
 }
 main{
     height: 50%;
@@ -173,11 +176,16 @@ main{
     margin-right: 0;
 
  }
- 
+ #btn{
+    display: block;
+    background-color: black;
+    width: 80px;
+    z-index: 999;
+    position: absolute;
+ }
 
  
- 
- .nav{
+ #nav.active{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -185,10 +193,13 @@ main{
     max-width: fit-content;
     min-height: 100vh;
     margin-top:0 ;
+ }
+ #nav{
+  display: none;
     
 
  }
- .nav h1{
+ #nav h1{
     margin-left: 2.9%;
     
  }
