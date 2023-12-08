@@ -111,12 +111,10 @@ section {
   width: 50%;
   height: 100%;
 }
-
-<<<<<<< HEAD
-.infosec .foto img {
-  min-width: 100%;
-=======
+.infosec .foto img{
+  min-height: 100%;
 }
+
 main{
     height: 50%;
     display: flex;
@@ -128,7 +126,6 @@ main{
     margin-left: 10%;
    
     
->>>>>>> 8c5177cce73e42c0b9bcb26c6a945a1717d0867b
 }
 
 .icons-socials-style {
@@ -314,8 +311,6 @@ main{
     border: transparent;
   }
 }
-<<<<<<< HEAD
-=======
  
-}
->>>>>>> 8c5177cce73e42c0b9bcb26c6a945a1717d0867b
+
+
